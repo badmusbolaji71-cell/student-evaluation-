@@ -3,55 +3,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+     <link rel="stylesheet" href="&7.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            background-color:tan;
-        }
-        option{
-            color :green;
-        }
-        p,h4,g{
-            color:red;
-            font-size:15px;
-        }
-        #gg,h3,b,#p{
-            color:green;
-            font-family:inherit;
-        }
-.div{
-         justify-content :center;
-        align-items :center;
-        display:grid;
-        background-color:black;
-        margin-bottom:15px;
-        width:100%;
-        border-radius :15px;
-}
 
-.div input,.div select {
-    width: 100%;
-    box-sizing: border-box;
-
-    padding: 14px 15px;
-
-    border: 3px solid tan;
-    border-radius: 12px;
-
-    outline: none;
-
-    background: #f8fafc;
-
-    color: #2a2aa8;
-
-    font-family: inherit;
-    font-size: 14px;
-
-    transition: 0.2s ease;
-}
-
-    </style>
 </head>
 <body>
     <h1>RESULT SLIP</h1>
