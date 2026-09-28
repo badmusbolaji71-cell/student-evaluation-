@@ -1,0 +1,26 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(11, 35, 172);
+
+}
+.bord{
+    border: 2px solid white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    background-color: white;
+    border-radius: 15px;
+}
+.perf{
+background-color: rgb(80, 80, 202);
+color: white;
+border:2px solid rgb(7, 7, 7);
+height: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+}
