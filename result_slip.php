@@ -6,62 +6,26 @@ include("logic.php");
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+     <link rel="stylesheet" href="&77.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            justify-content: center;
-            align-items: center;
-            display: grid;
-        }
-        h2, h3, #pp{
-            color: white;
-        }
-        .bord{
-            justify-content: center;
-            align-items: center;
-            display: grid;
-            background-color: #dbce99;
-            width: 350px;
-            border-radius: 20px;
-        }
-        #pgp{
-            color: white;
-        }
-        #pdp{
-            color: black;
-        }
-        h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 26px;
-            color: var(--green);
-            margin-bottom: 0.25rem;
-        }
-        h1::after {
-            content: '';
-            display: block;
-            width: 48px;
-            height: 3px;
-            background: var(--lime);
-            border-radius: 2px;
-            margin-top: 8px;
-            margin-bottom: 1.5rem;
-        }
-    </style>
 </head>
 <body>
     <div class="bord">
-        <h1>GET YOUR RESULT</h1>
+        <h1>GET YOUR RESULT <i class = "fa-solid fa-graduation-cap"></i></h1>
         <h2><?php echo "Name : " . $name ?></h2>
         <h2><?php echo "Class : " . $class ?></h2>
         <h2><?php echo "Gender : " . $gender ?></h2>
-        <p id="pp"><?php echo "Mathematics : " . $subject[0] ?></p>
-        <p id="pp"><?php echo "Physics : " . $subject[1] ?></p>
-        <p id="pp"><?php echo "Chemistry : " . $subject[2] ?></p>
+        <h2>Mathematics <i class = "fa-solid fa-calculator"></i> : <?php echo  $subject[0] ?></h2>
+        <h2>Physics <i class ="fa-solid fa-ruler"></i> : <?php echo  $subject[1] ?></h2>
+        <h2>Chemistry <i class = "fa-solid fa-flask"></i> : <?php echo $subject[2] ?></h2>
         <h2><?php echo "Total-score : " . $total ?></h2>
         <h3><?php echo "Average-score : " . $ave . "%" ?></h3>
-        <i id="pdp"><?php echo " Overall Grade : " . $grade ?></i>
-        <p id="pgp"><?php echo "Performance : " . $perf ?></p>
+        <h2 class = "grade">Grade<i class = "fa-solid fa-trophy"></i> : <?php echo  $grade ?></h2>
+        <h2 class = "perf">Performance <i class = "fa-solid fa-medal"></i> :<?php echo  $perf ?></h2>
     </div>
 </body>
 </html>
