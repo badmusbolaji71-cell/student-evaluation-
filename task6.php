@@ -15,7 +15,7 @@
 </head>
 <body>
    
-    <form action="result_slip.php" method="post" id="form">
+    <form action="" method="post" id="form">
         <br><br>
         <div class = "div">
              <h1>RESULT SLIP <i class = "fa-solid fa-graduation-cap"></i></h1>
