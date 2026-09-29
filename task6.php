@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <title>Document</title>
-    <style>
+    <style> 
     
     </style>
 </head>
@@ -60,6 +60,23 @@
          <b>Physics <i class = "fa-solid fa-ruler"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "Physics score" value = "<?= $subject[1] ?? ''?>"> <p><?php echo $subjectrr[1] ?? '';?></p><br><br><br><br>
 
           <b>Chemistry <i class= "fa-solid fa-flask"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "Chemistry score" value="<?= $subject[2] ?? ''?>">   <p><?php echo $subjectrr[2] ?? '';?></p><br><br><br><br>
+
+          <b>Biology <i class= "fa-solid fa-brain"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "Biology score" value="<?= $subject[3] ?? ''?>">   <p><?php echo $subjectrr[3] ?? '';?></p><br><br><br><br>
+
+          <b>English <i class= "fa-solid fa-pen"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "English score" value="<?= $subject[4] ?? ''?>">   <p><?php echo $subjectrr[4] ?? '';?></p><br><br><br><br>
+         <b>Agriculture <i class= "fa-solid fa-tree"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "Agric score" value="<?= $subject[5] ?? ''?>">   <p><?php echo $subjectrr[5] ?? '';?></p><br><br><br><br>
+
+          <b>F/math <i class= "fa-solid fa-divide"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "f/math score" value="<?= $subject[6] ?? ''?>">   <p><?php echo $subjectrr[6] ?? '';?></p><br><br><br><br>
+
+           <b>Language <i class= "fa-solid fa-book-open"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "Language score" value="<?= $subject[7] ?? ''?>">   <p><?php echo $subjectrr[7] ?? '';?></p><br><br><br><br> 
+
+         <b>optional <i class= "fa-solid fa-book-openFS"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "OPTIONAL score" value="<?= $subject[8] ?? ''?>">   <p><?php echo $subjectrr[8] ?? '';?></p><hh>IF THERE IS NO SCORE FOR THE SESSION WRITE 0</hh><br><br><br><br>
+        
+         <b>optional <i class= "fa-solid fa-book-openFS"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "OPTIONAL score" value="<?= $subject[9] ?? ''?>">   <p><?php echo $subjectrr[9] ?? '';?></p><hh>IF THERE IS NO SCORE FOR THE SESSION WRITE 0</hh><br><br><br><br>
+        
+         <b>optional <i class= "fa-solid fa-book-openFS"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "OPTIONAL score" value="<?= $subject[10] ?? ''?>">   <p><?php echo $subjectrr[10] ?? '';?></p><hh>IF THERE IS NO SCORE FOR THE SESSION WRITE 0</hh><br><br><br><br>
+
+
         
           <input type="submit" value="Submit" id = "submit">
           <h4><?php echo $fillpages?></h4><h3 id="gg"><?php echo $fillpagees?></h3>
