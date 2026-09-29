@@ -70,11 +70,11 @@
 
            <b>Language <i class= "fa-solid fa-book-open"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "Language score" value="<?= $subject[7] ?? ''?>">   <p><?php echo $subjectrr[7] ?? '';?></p><br><br><br><br> 
 
-         <b>optional <i class= "fa-solid fa-book-openFS"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "OPTIONAL score" value="<?= $subject[8] ?? ''?>">   <p><?php echo $subjectrr[8] ?? '';?></p><br><br><br><br>
+         <b>other <i class= "fa-solid fa-book-openFS"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "Other score" value="<?= $subject[8] ?? ''?>">   <p><?php echo $subjectrr[8] ?? '';?></p><br><br><br><br>
         
-         <b>optional <i class= "fa-solid fa-book-openFS"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "OPTIONAL score" value="<?= $subject[9] ?? ''?>">   <p><?php echo $subjectrr[9] ?? '';?></p><br><br><br><br>
+         <b>other <i class= "fa-solid fa-book-openFS"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "Other score" value="<?= $subject[9] ?? ''?>">   <p><?php echo $subjectrr[9] ?? '';?></p><br><br><br><br>
         
-         <b>optional <i class= "fa-solid fa-book-openFS"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "OPTIONAL score" value="<?= $subject[10] ?? ''?>">   <p><?php echo $subjectrr[10] ?? '';?></p><br><br><br><br>
+         <b>others <i class= "fa-solid fa-book-openFS"></i> :  </b><input type="number" name="subject[]" id="" placeholder = "Other score" value="<?= $subject[10] ?? ''?>">   <p><?php echo $subjectrr[10] ?? '';?></p><br><br><br><br>
 
 
         
