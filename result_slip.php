@@ -22,6 +22,15 @@ include("logic.php");
         <h2>Mathematics <i class = "fa-solid fa-calculator"></i> : <?php echo  $subject[0] ?></h2>
         <h2>Physics <i class ="fa-solid fa-ruler"></i> : <?php echo  $subject[1] ?></h2>
         <h2>Chemistry <i class = "fa-solid fa-flask"></i> : <?php echo $subject[2] ?></h2>
+         <h2>Biology <i class = "fa-solid fa-brain"></i> : <?php echo $subject[3] ?></h2>
+         <h2>English <i class = "fa-solid fa-pen"></i> : <?php echo $subject[4] ?></h2>
+        <h2>Agriculture <i class = "fa-solid fa-tree"></i> : <?php echo $subject[5] ?></h2>
+        <h2>F/math <i class = "fa-solid fa-divide"></i> : <?php echo $subject[6] ?></h2>
+        <h2>Language <i class = "fa-solid fa-book-open"></i> : <?php echo $subject[7] ?></h2>
+        <h2>Others <i class = "fa-solid fa-book-opedn"></i> : <?php echo $subject[8] ?></h2>
+        <h2>Others <i class = "fa-solid fa-book-opedn"></i> : <?php echo $subject[9] ?></h2>
+        <h2>Others <i class = "fa-solid fa-book-opedn"></i> : <?php echo $subject[10] ?></h2>
+            
         <h2><?php echo "Total-score : " . $total ?></h2>
         <h3><?php echo "Average-score : " . $ave . "%" ?></h3>
         <h2 class = "grade">Grade<i class = "fa-solid fa-trophy"></i> : <?php echo  $grade ?></h2>
